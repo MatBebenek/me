@@ -2,14 +2,9 @@ import "./firm.css";
 
 const Firm = ({img,link}) => {
   return (
-    <div className="p">
-      <div className="p-browser">
-        <div className="p-circle"></div>
-        <div className="p-circle"></div>
-        <div className="p-circle"></div>
-      </div>
+    <div className="f">
       <a href={link} target="_blank" rel="noreferrer">
-        <img src={img} alt="" className="p-img" />
+        <img src={img} alt="" className="f-img" />
       </a>
     </div>
   );
