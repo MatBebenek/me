@@ -1,8 +1,14 @@
+@import "../../global.scss";
+
 .i {
     display: flex;
     height: 100vh;
     background-color: black;
-    color:white
+    color:white;
+
+    @include mobile{
+      flex-direction: column;
+    }
   }
   
   .i-right {
@@ -23,15 +29,33 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+
+    @include mobile{
+      padding: 10px;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      height: 100%;
+    }
   }
   
   .i-intro {
     font-size: 50px;
     font-weight: 350;
+
+    @include mobile{
+      margin: 0px;
+    }
   }
 
   .i-desc {
     margin-top: 50px;
+
+    @include mobile{
+      margin-top: 25px;
+      padding: 15px;
+      font-size: 15px;
+    }
   }
   
   .i-title {
@@ -68,6 +92,10 @@
     -webkit-text-fill-color: transparent;
     display: flex;
     align-items: center;
+
+    @include mobile{
+      justify-content: center;
+    }
   }
   
   .i-img {
@@ -75,6 +103,10 @@
     height: 100%;
     object-fit: cover;
     position: absolute;
+
+    @include mobile{
+      height: 110%;
+    }
   }
   
   .i-bg {
@@ -97,37 +129,4 @@
     height: 100%;
     object-fit: cover;
     position: absolute;
-  }
-
-  @media screen and (max-width: 480px) {
-    .i {
-      flex-direction: column;
-    }
-  
-    .i-right-wrapper {
-      padding: 10px;
-      align-items: center;
-      justify-content: center;
-      text-align: center;
-      height: 100%;
-    }
-
-    .i-desc {
-      margin-top: 25px;
-      padding: 15px;
-      font-size: 15px;
-    }
-
-    .i-img {
-      height: 110%;
-    }
-
-    .i-title-item {
-      justify-content: center;
-    }
-
-    .i-intro {
-      margin: 0px;
-    }
-
   }

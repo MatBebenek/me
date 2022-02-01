@@ -1,4 +1,4 @@
-import "./exp.css";
+import "./exp.scss";
 import Firm from "../firm/Firm";
 import { firms } from "../../data";
 

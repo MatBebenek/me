@@ -1,4 +1,4 @@
-import "./firm.css";
+import "./firm.scss";
 
 const Firm = ({img,link}) => {
   return (
