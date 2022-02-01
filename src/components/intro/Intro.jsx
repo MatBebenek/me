@@ -1,4 +1,4 @@
-import "./intro.css";
+import "./intro.scss";
 import Me from "../../img/photo.png";
 
 const Intro = () => {
@@ -20,11 +20,11 @@ const Intro = () => {
             <div className="i-title-item">UI/UX Designer</div>
           </div>
         </div>
-        <p className="i-desc">
+        <div className="i-desc">
           I design and develop services for customers of all sizes,
-          specializing in creating stylish, modern websites with various backend services.
-        </p>
-        <p className="i-contact">Feel free to contact me.</p>
+          specializing in creating stylish, modern websites. I have solid understanding of full development lifecycle.
+        </div>
+        <div className="i-contact">Feel free to contact me.</div>
       </div>
       </div>
     </div>
