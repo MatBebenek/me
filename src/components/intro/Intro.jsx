@@ -24,7 +24,7 @@ const Intro = () => {
           I design and develop services for customers of all sizes,
           specializing in creating stylish, modern websites with various backend services.
         </p>
-        <p className="i-contact">Feel free to contact me in any case.</p>
+        <p className="i-contact">Feel free to contact me.</p>
       </div>
       </div>
     </div>
