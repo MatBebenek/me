@@ -122,6 +122,10 @@
   .i-contact{
     font-weight: 500;
     margin-top: 20px;
+
+    @include mobile{
+      margin-top: 10px;
+    }
   }
 
   i-img {
